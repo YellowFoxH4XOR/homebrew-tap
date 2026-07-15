@@ -1,6 +1,6 @@
 cask "deckle" do
-  version "1.3.2"
-  sha256 "4a52c7085e2b184e2849d9df8f336ad0b1ede7ec9d525b263a8226c37bdb1738"
+  version "1.3.3"
+  sha256 "3b57b64ad8b209f57ee7f61a5e5c59c81ebd76a607a6210674f6424c37ee2b55"
 
   url "https://github.com/YellowFoxH4XOR/deckle/releases/download/v#{version}/Deckle-#{version}.dmg"
   name "Deckle"
