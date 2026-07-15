@@ -13,8 +13,9 @@ cask "deckle" do
 
   caveats <<~EOS
     Deckle is open source and not notarized. If macOS blocks the first
-    launch, right-click Deckle.app in /Applications and choose Open,
-    or reinstall with:
+    launch, go to System Settings > Privacy & Security, scroll to the
+    Security section, and click "Open Anyway" next to the Deckle message.
+    Or skip the prompt entirely with:
       brew reinstall --cask deckle --no-quarantine
   EOS
 
