@@ -7,7 +7,7 @@ cask "deckle" do
   desc "Paper-grain texture overlay that makes your screen feel like paper"
   homepage "https://github.com/YellowFoxH4XOR/deckle"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Deckle.app"
 
